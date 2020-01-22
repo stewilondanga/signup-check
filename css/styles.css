@@ -43,19 +43,20 @@ input:checked {
   filter: invert(100%) hue-rotate(98deg) brightness(1.1);
 }
 
-/*label {
-  position:relative;
-  display:flex;
-  justify-content:space-between;
+label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
   font-size: 24px;
   font-family: helvetica;
-  width:100%;
-  zborder:1px solid yellow;
-  transition:all 0.5s;
-  border-left: 8px solid rgba(0,0,0,0);
+  width: 100%;
+  zborder: 1px solid yellow;
+  transition: all 0.5s;
+  border-left: 8px solid rgba(0, 0, 0, 0);
   margin-top: 20px;
 }
-label:hover {
+
+/*label:hover {
   border-left: 8px solid rgba(100,40,255,0.7);
 }
 
