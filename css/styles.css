@@ -107,12 +107,12 @@ input:not(:checked):hover {
   box-shadow: 5px 5px #88888888;
 }
 
-/*#div1.start {
+#div1.start {
   opacity: 1.0;
   transform: scale(2.0);
 }
 
-#gif1 {
+/*#gif1 {
   position:absolute;
   top: 0;
   display:none;
