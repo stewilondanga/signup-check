@@ -60,10 +60,11 @@ label:hover {
   border-left: 8px solid rgba(100, 40, 255, 0.7);
 }
 
-/*input:not(:checked):hover {
+input:not(:checked):hover {
   animation: keyshaky 1s infinite;
 }
-@keyframes keyshaky {
+
+/*@keyframes keyshaky {
   0% { transform: translateX(0px) }
   10% { transform: translateX(5px) }
   20% { transform: translateX(-3px) }
