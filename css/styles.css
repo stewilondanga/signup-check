@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,97 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 20px;
+  font-size: 30px;
+  font-family: helvetica;
+	background: linear-gradient(rgba(158,86,57,0.4),rgba(220,86,36,0.7));
+}
+
+
+input {
+  right:0px;
+  bottom:-2px;
+  transition: all 0.5s;
+  border: 1px solid red;
+  zoom: 2.0;
+  transform: rotate(91deg);
+  color:blue;
+  margin: 5px;
+  outline: 2px solid lightblue;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+input:checked {
+  transform: rotate(0deg);
+  color:white;
+  background-color:blue;
+ filter: invert(100%) hue-rotate(98deg) brightness(1.1);
+}
+
+label {
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  font-size: 24px;
+  font-family: helvetica;
+  width:100%;
+  zborder:1px solid yellow;
+  transition:all 0.5s;
+  border-left: 8px solid rgba(0,0,0,0);
+  margin-top: 20px;
+}
+label:hover {
+  border-left: 8px solid rgba(100,40,255,0.7);
+}
+
+input:not(:checked):hover {
+  animation: keyshaky 1s infinite;
+}
+@keyframes keyshaky {
+  0% { transform: translateX(0px) }
+  10% { transform: translateX(5px) }
+  20% { transform: translateX(-3px) }
+  30% { transform: translateX(0px) }
+}
+#div1 {
+  font-family: fantasy;
+  color:red;
+  position:fixed;
+  left: 100px;
+  ztop: 100px;
+  opacity: 0.01;
+  transform: scale(0.01);
+  color:white;
+  background-color:aquamarine;
+  border-radius: 20px;
+  padding: 5px;
+  transition: all 0.4s ease;
+		color: white;
+		text-decoration-color: blue;
+		outline-color: blueviolet;
+		border: 5px solid white;
+		border-radius: 6px;
+		color: brown;
+		width: 120px;
+		font-size: 0.5em;
+		text-shadow: none;
+		box-shadow: 5px 5px #88888888;
+}
+#div1.start {
+  opacity: 1.0;
+  transform: scale(2.0);
+}
+
+#gif1 {
+  position:absolute;
+  top: 0;
+  display:none;
 }
 
 .containers {
