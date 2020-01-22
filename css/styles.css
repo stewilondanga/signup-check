@@ -82,31 +82,32 @@ input:not(:checked):hover {
   }
 }
 
-/*#div1 {
+#div1 {
   font-family: fantasy;
-  color:red;
-  position:fixed;
+  color: red;
+  position: fixed;
   left: 100px;
   ztop: 100px;
   opacity: 0.01;
   transform: scale(0.01);
-  color:white;
-  background-color:aquamarine;
+  color: white;
+  background-color: aquamarine;
   border-radius: 20px;
   padding: 5px;
   transition: all 0.4s ease;
-		color: white;
-		text-decoration-color: blue;
-		outline-color: blueviolet;
-		border: 5px solid white;
-		border-radius: 6px;
-		color: brown;
-		width: 120px;
-		font-size: 0.5em;
-		text-shadow: none;
-		box-shadow: 5px 5px #88888888;
+  color: white;
+  text-decoration-color: blue;
+  outline-color: blueviolet;
+  border: 5px solid white;
+  border-radius: 6px;
+  color: brown;
+  width: 120px;
+  font-size: 0.5em;
+  text-shadow: none;
+  box-shadow: 5px 5px #88888888;
 }
-#div1.start {
+
+/*#div1.start {
   opacity: 1.0;
   transform: scale(2.0);
 }
