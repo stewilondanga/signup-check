@@ -36,14 +36,14 @@ input {
   font-size: 2em;
 }
 
-/*input:checked {
+input:checked {
   transform: rotate(0deg);
-  color:white;
-  background-color:blue;
- filter: invert(100%) hue-rotate(98deg) brightness(1.1);
+  color: white;
+  background-color: blue;
+  filter: invert(100%) hue-rotate(98deg) brightness(1.1);
 }
 
-label {
+/*label {
   position:relative;
   display:flex;
   justify-content:space-between;
