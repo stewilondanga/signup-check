@@ -56,11 +56,11 @@ label {
   margin-top: 20px;
 }
 
-/*label:hover {
-  border-left: 8px solid rgba(100,40,255,0.7);
+label:hover {
+  border-left: 8px solid rgba(100, 40, 255, 0.7);
 }
 
-input:not(:checked):hover {
+/*input:not(:checked):hover {
   animation: keyshaky 1s infinite;
 }
 @keyframes keyshaky {
