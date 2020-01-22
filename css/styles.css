@@ -112,13 +112,13 @@ input:not(:checked):hover {
   transform: scale(2.0);
 }
 
-/*#gif1 {
-  position:absolute;
+#gif1 {
+  position: absolute;
   top: 0;
-  display:none;
+  display: none;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
