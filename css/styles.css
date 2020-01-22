@@ -64,13 +64,25 @@ input:not(:checked):hover {
   animation: keyshaky 1s infinite;
 }
 
-/*@keyframes keyshaky {
-  0% { transform: translateX(0px) }
-  10% { transform: translateX(5px) }
-  20% { transform: translateX(-3px) }
-  30% { transform: translateX(0px) }
+@keyframes keyshaky {
+  0% {
+    transform: translateX(0px)
+  }
+
+  10% {
+    transform: translateX(5px)
+  }
+
+  20% {
+    transform: translateX(-3px)
+  }
+
+  30% {
+    transform: translateX(0px)
+  }
 }
-#div1 {
+
+/*#div1 {
   font-family: fantasy;
   color:red;
   position:fixed;
